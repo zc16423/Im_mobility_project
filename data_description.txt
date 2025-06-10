@@ -1,0 +1,63 @@
+"The Dynamics of (Im)mobility: A Sinusoidal Model of Home Presence in Mobility Rhythm" dataset description
+
+Data sources:
+US Census Bureau American Community Survey (ACS) 2015–2019
+US EPA Smart Location Database (SLD v3)
+Anonymized mobility data (proprietary)
+
+Geographic variables:
+census_block_group: US census block group identifier (GEOID format)
+county: County-level GEOID where CBG is located
+state: State-level GEOID where CBG is located
+
+Demographic variables:
+Pct_NH_White_alone_ACS_15_19: Percentage of non-Hispanic White population
+Definition: (non-Hispanic white population / total population) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Pct_Hispanic_ACS_15_19: Percentage of Hispanic or Latino population
+Definition: (Hispanic/Latino population / total population) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Pct_NH_Blk_alone_ACS_15_19: Percentage of non-Hispanic Black population
+Definition: (non-Hispanic Black population / total population) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Economic variables:
+Unemployment_rate: Labor force unemployment rate
+Definition: (unemployed persons / labor force) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Housing variables:
+Pct_Owner_Occupied: Owner-occupied housing percentage
+Definition: (owner-occupied units / total occupied units) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Pct_Vacant_Housing: Vacant housing unit percentage
+Definition: (vacant units / total housing units) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Education variables:
+Pct_College_Degree: Population with college degree (25+ years)
+Definition: (bachelor’s+ degree holders / population 25+) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Pct_No_High_School: Population without high school diploma (25+ years)
+Definition: (no diploma holders / population 25+) × 100
+Source: US Census Bureau ACS 2015–2019 5-year estimates
+
+Employment and walk variables:
+Pct_Low_Wage_Employment: Low-wage employment percentage
+Definition: (workers earning ≤\$1,250/month / total employed) × 100
+Source: EPA SLD v3, calculated from LEHD data
+
+Walkability: National Walkability Index
+Definition: Composite measure of built environment factors
+Source: EPA SLD v3, calculated from LEHD data
+Range: 1–20 (higher = more walkable)
+Components: Intersection density, employment mix, transit access
+
+Temporal coverage:
+Mobility data: 2019.01.01–2020.12.31
+Census data: 2015–2019 ACS 5-year estimates
+Holiday identification based on US federal holidays

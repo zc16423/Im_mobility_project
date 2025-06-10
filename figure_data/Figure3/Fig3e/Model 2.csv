@@ -1,0 +1,6 @@
+Variable,Coefficient,Lower_CI,Upper_CI
+% Hispanic,-0.3574,-0.371,-0.344
+% Black,0.2506,0.236,0.265
+Poverty Rate,1.4766,1.451,1.502
+% Low-Wage Employment,0.0871,0.068,0.106
+Unemployment Rate,0.8962,0.84,0.952

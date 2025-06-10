@@ -1,0 +1,10 @@
+Variable,Coefficient,Lower_CI,Upper_CI
+% Hispanic,-0.4567,-0.473,-0.44
+% Black,0.1543,0.139,0.169
+Poverty Rate,0.8489,0.819,0.879
+% Low-Wage Employment,0.0876,0.069,0.106
+Unemployment Rate,0.7575,0.703,0.812
+% College Degree,0.0204,0.003,0.038
+% No High School Degree,0.4507,0.413,0.489
+% Owner-Occupied Housing,-0.3342,-0.348,-0.321
+% Vacant Housing Units,1.2959,1.271,1.321
