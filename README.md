@@ -14,26 +14,46 @@ This repository contains the complete computational framework for analyzing anon
 ## Repository Structure
 
 ├── README.md
+
 ├── LICENSE
+
 ├── sample_data.csv
+
 ├── econometrics_data.csv
+
 ├── data_description.txt
+
 ├── figure_data/
+
 │ ├── Figure1/
+
 │ ├── Figure2/
+
 │ ├── Figure3/
-│ └── Figure4/
+
+│ ├── Figure4/
+
 ├── data_processing/
+
 │ ├── hourly_mobility_ratio_calculation.py
+
 │ ├── single_cbg_racial_information_matching.py
+
 │ ├── dynamic_rhythm_fitting.py
+
 │ ├── weekend_and_holiday_date_identification.py
+
 │ ├── ols_regression_temporal_dispersion.py
+
 ├── visualization/
+
 │ ├── Figure1/
+
 │ ├── Figure2/
+
 │ ├── Figure3/
-│ └── Figure4/
+
+│ ├── Figure4/
 
 ## Data Sources
 
@@ -55,7 +75,7 @@ This repository contains the complete computational framework for analyzing anon
 ### Demographic Classification
 
 - **Threshold-based Classification:** Communities classified by majority demographic (≥50%)  
-- **Multi-ethnic Analysis:** Separate analysis for White, Hispanic/Latino, and Black/African American communities  
+- **Multi-ethnic Analysis:** Separate analysis for White, Hispanic, and Black American communities  
 - **Adjustable Parameters:** Threshold values can be modified in processing scripts  
 
 ### Temporal Analysis
