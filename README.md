@@ -1,4 +1,4 @@
-# “The Dynamics of (Im)mobility: A Sinusoidal Model of Home Presence in Mobility Rhythm” Analysis and Visualization
+# “Unequal rhythms of (im)mobility capture structural disparities in routine life” Analysis and Visualization
 
 ## Overview
 
